@@ -32,6 +32,6 @@ def main(books_path):
                 print(f"{item["char"]}: {item["count"]}")
         
 if len(sys.argv) != 2:
-    print("Usage: python3 main.py <path_to_book>")
+    print("Usage: python3 main.py [<path_to_book>, <path_to_books_dir>")
     sys.exit(1)    
 main(sys.argv[1])
